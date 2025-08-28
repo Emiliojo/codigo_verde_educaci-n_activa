@@ -16,6 +16,14 @@ a {
     text-decoration: none;
 }
 
+header {
+    position: fixed;
+}
+
+main {
+    padding-top: 80px;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -93,4 +101,15 @@ a {
     object-fit: cover;
     border-radius: 30px;
     box-shadow: 20px 20px 0 #D7DF8E;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    /* background-color: #F4F1DE; */
+    background-image: url("img/leaf.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
