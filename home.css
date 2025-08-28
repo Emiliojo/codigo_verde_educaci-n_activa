@@ -50,3 +50,47 @@ a {
 .nav__item a:hover {
     text-decoration: underline;
 }
+
+.hero {
+    display: flex;
+}
+
+.hero__container {
+    width: 50%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero__container__butterfly {
+    background-image: url("img/butterfly-green.png");
+    background-repeat: no-repeat;
+    background-position: right 100px;
+}
+
+.hero__container__image {
+    align-items: center;
+}
+
+.hero__title {
+    font-size: 62px;
+    font-family: "Acme", sans-serif;
+    color: #5E3085;
+}
+
+.hero__description {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero__image {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 20px 20px 0 #D7DF8E;
+}
