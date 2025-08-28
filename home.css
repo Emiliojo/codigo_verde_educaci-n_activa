@@ -108,8 +108,48 @@ main {
     justify-content: center;
     align-items: center;
     padding: 100px 0;
-    /* background-color: #F4F1DE; */
     background-image: url("img/leaf.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+    background-color: #F4F1DE;
+}
+
+.achievements__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.achievements__list {
+    display: flex;
+    gap: 50px;
+}
+
+.achievements__title {
+    font-size: 36px;
+    font-family: "Acme", sans-serif;
+    color: #5E3085;
+    margin-bottom: 60px;
+}
+
+.achievements__medal {
+    width: 80px;
+}
+
+.achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    width: 300px;
 }
