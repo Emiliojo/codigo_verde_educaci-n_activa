@@ -6,7 +6,8 @@
 .augmented__steps {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    gap: 50px;
     margin-bottom: 100px;
 }
 
@@ -17,11 +18,23 @@
 }
 
 .augmented__step{
-    width: 10%;
+    width: 80px;
 }
 
 .augmented__number {
     font-size: 24px;
     font-weight: bold;
     color: #5E3085;
+}
+
+.augmented__link img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 #D7DF8E;
+    margin-left: 100px;
+}
+
+.augmented__image {
+    width: 30%;
 }
