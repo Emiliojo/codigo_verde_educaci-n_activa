@@ -1,0 +1,42 @@
+.virtual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    background-image: url("img/leaf.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: top right;
+}
+
+.virtual__title {
+    margin-top: 50px;
+}
+
+.virtual__text {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 80px;
+}
+
+.virtual__link {
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.virtual__link img {
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 #D7DF8E;
+}
+
+.virtual__link img:hover {
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+}

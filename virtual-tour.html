@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/virtual-tour.css">
+    <script src="https://kit.fontawesome.com/19a7530794.js" crossorigin="anonymous"></script>
     <title>Código Verde - Educación Activa</title>
 </head>
 <body>
@@ -11,15 +17,30 @@
             <img src="img/logo_nav.png" alt="Website Logo" class="nav__logo">
 
             <ul class="nav__items">
-                <li class="nav__item"><a href="#">Inicio</a></li>
+                <li class="nav__item"><a href="/">Inicio</a></li>
                 <li class="nav__item"><a href="#">Información</a></li>
                 <li class="nav__item"><a href="#">Editorial</a></li>
-                <li class="nav__item"><a href="#">Recorrido Virtual</a></li>
-                <li class="nav__item"><a href="#">Realidad Aumentada</a></li>
+                <li class="nav__item"><a href="virtual-tour.html">Recorrido Virtual</a></li>
+                <li class="nav__item"><a href="augmented-reality.html">Realidad Aumentada</a></li>
                 <li class="nav__item"><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="virtual">
+            <h1 class="achievements__title virtual__title">Recorrido Virtual</h1>
+            
+            <p class="virtual__text">
+                Te invitamos a explorar nuestra <b>galería virtual</b>, un espacio interactivo diseñado para profundizar en la educación ambiental.
+
+                Esta plataforma te permitirá conocer de manera dinámica y visual cómo podemos fomentar el cuidado del medio ambiente integrando tecnología y prácticas inclusivas. Para <b>ingresar a la galería</b>, simplemente accede mediante la siguiente imagen y siéntete libre de compartir tus actividades y demás planes para el cuidado ambiental.
+            </p>
+            <a href="https://www.spatial.io/s/Recorrido-Virtual_Codigo-Verde-Educacion-Activa-66706d4bcf5a9d292813b230?share=2354963282664121984" class="virtual__link" target="_blank">
+                <img src="/img/virtual-tour.jpg" alt="Virtual tour">
+            </a>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="footer__contact">

@@ -1,0 +1,27 @@
+.augmented__title {
+    color: #5E3085;
+    margin-bottom: 30px;
+}
+
+.augmented__steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.augmented__steps li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.augmented__step{
+    width: 10%;
+}
+
+.augmented__number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5E3085;
+}
