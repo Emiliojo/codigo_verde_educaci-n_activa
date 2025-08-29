@@ -1,6 +1,7 @@
 .augmented__title {
     color: #5E3085;
     margin-bottom: 30px;
+    font-size: 44px;
 }
 
 .augmented__steps {
@@ -34,6 +35,19 @@
     box-shadow: 10px 10px 0 #D7DF8E;
 }
 
+.augmented__link img:hover {
+    transform: scale(0.98);
+    transition: transform 0.3s ease;
+}
+
 .augmented__image {
     width: 30%;
+}
+
+.augmented__img-container {
+    display: flex;
+    justify-content: center;
+    background-image: url("/img/butterfly-green.png");
+    background-repeat: no-repeat;
+    background-position: 100px 50px;
 }
